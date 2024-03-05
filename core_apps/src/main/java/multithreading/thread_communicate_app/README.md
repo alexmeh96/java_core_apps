@@ -1,0 +1,1 @@
+пример коммуникации потоков через каналы Pipe.SinkChannel и Pipe.SourceChannel

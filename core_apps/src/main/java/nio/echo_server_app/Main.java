@@ -13,7 +13,7 @@ import java.util.Set;
 public class Main {
     private static final String POISON_PILL = "POISON_PILL";
 
-    public static void start() throws IOException {
+    public static void main(String[] args) throws IOException {
         Selector selector = Selector.open();
         ServerSocketChannel serverSocket = ServerSocketChannel.open();
         serverSocket.bind(new InetSocketAddress("localhost", 5454));

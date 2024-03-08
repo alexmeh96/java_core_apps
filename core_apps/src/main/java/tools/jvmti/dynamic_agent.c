@@ -1,9 +1,8 @@
 #include <jvmti.h>
 #include <stdio.h>
 
-// функция, которая вызывается виртуальной машиной при загрузки этой программы(агента)
-// передавай указатьль на объект самой виртуальной машины(vm)
-JNIEXPORT jint JNICALL Agent_OnLoad(JavaVM* vm, char* options, void* reserved) {
+// функция, которая вызывается виртуальной машиной во время работы(налету)
+JNIEXPORT jint JNICALL Agent_OnAttach(JavaVM* vm, char* options, void* reserved) {
     jvmtiEnv* jvmti;
 
     // Get JVMTI environment

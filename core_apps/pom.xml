@@ -33,7 +33,6 @@
         <dependency>
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-core</artifactId>
-
         </dependency>
         <dependency>
             <groupId>io.projectreactor</groupId>
@@ -41,6 +40,11 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.107.Final</version>
+        </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>

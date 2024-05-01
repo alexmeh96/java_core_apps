@@ -5,7 +5,7 @@
     <artifactId>quarkus_apps</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>java_core_apps</name>
+    <name>quarkus_apps</name>
 
     <modules>
         <module>initial_app</module>
